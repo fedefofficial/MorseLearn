@@ -44,3 +44,14 @@ tr{
     border-bottom: 1px solid rgb(0, 0, 0);
     
 }
+button{
+    color: grey;
+    background-color: transparent;
+    color: black;
+}
+button:hover{
+    background-color: rgb(117, 117, 117);
+}
+button:active{
+    background-color: rgb(112, 112, 112);
+}
