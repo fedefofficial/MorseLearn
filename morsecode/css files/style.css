@@ -1,0 +1,149 @@
+body
+{
+    background-color: rgb(44, 44, 44);
+}
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 35px;
+    text-shadow:0 0 15px black;
+    
+}
+.user-section
+{
+   width: 300px;
+   background-color: rgb(126, 126, 126);
+   border-radius: 10px;
+   position: absolute;
+   top: 2%;
+   left : 82%;
+   box-shadow: 0 0 15px black;
+   
+}
+.pfp
+{
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-right: 5px;
+    position: relative;
+    background-color:rgb(192, 192, 192) ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+}
+.user-info
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-name
+{
+    flex-grow: 1;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    flex: 2;
+}
+.dashboard
+{
+    position: relative;
+    background-color: rgb(126, 126, 126);
+    width: 800px;
+    height: 300px;
+    top: 30%;
+    left: 25%;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.game-mode-name
+{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.mode
+{   
+    flex: 1;
+    margin-left:7px;
+    margin-right:7px;
+    margin-top: 5px;
+    background-color: rgb(151, 151, 151);
+    display: inline-block;    
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid black ;
+    transition-duration: 0.3s;
+    box-shadow: 0 0 5px black;
+
+}
+.mode-name
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.mode-name-preview
+{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.modes-list
+{
+    display: flex;
+    flex-direction: row;
+}
+.alphabet-button
+{
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    margin-top: 10px;
+    left: 25%;
+    background-color:rgb(126, 126, 126);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+.mode:hover
+{
+    flex: 2;
+    background-color: rgb(180, 180, 180);
+};
+
+.mode:active
+{
+    flex: 2;
+    background-color: rgb(180, 180, 180);
+    
+}
+.alphabet-button:hover
+{
+    cursor: pointer;
+    background-color:rgb(151, 151, 151);
+}
+.alphabet-button:active
+{
+    background-color: rgb(180, 180, 180);
+}
+.mode:hover
+{
+    cursor: pointer;
+}
