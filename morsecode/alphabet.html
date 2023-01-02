@@ -3,11 +3,11 @@
     <head>
         <title>alphabet</title>
 
-        <link rel="stylesheet" href="css files/alphabettable.css">
+        <link rel="stylesheet" href="alpha.css">
     
     </head>
 
-    <body>
+    <body bgcolor="grey">
         
         <h1 align="center">Morse alphabet</h1>
 <br>
@@ -23,7 +23,7 @@
                 <th>Code</th>
             </tr>
             <tr class="b">
-                <td>A</td>
+                <td><button class="sound" onclick="audio.play();">A</button></td>
                 <td>._</td>
                 <td>N</td>
                 <td>_.</td>
@@ -152,5 +152,11 @@
                 <td>@</td>
                 <td>._ _._.</td>
             </tr>
+
+            <script type="text/javascript">
+                const audio = new Audio();
+                audio.src = "./asound.mp3";
+            </script>
         </table>
     </body>
+</html>
